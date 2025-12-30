@@ -1,0 +1,80 @@
+# ConvoScope .gitignore
+
+# Data Files (don't commit user data)
+*.json
+!examples/*.json
+*.csv
+*.xlsx
+*.txt
+!requirements*.txt
+!LICENSE.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Visualizations
+*.png
+!docs/assets/*.png
+*.html
+!docs/*.html
+
+# Output Directories
+outputs/
+results/
+analysis_*/
+temp/
+tmp/
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.env.local
